@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*header styles*/
+
+.header_myWeb {
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    padding: 40px;
+}
+
+/*description styles*/
+.description {
+    padding: 60px;
+    background-color: #1abc9c;
+}
+
+.description > div {
+    max-width: 680px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+/*manu styles*/
+
+/*Left Panel styles*/
+.manu {
+    background-color: black;
+    position: sticky;
+    display: flex;
+    justify-content: start;
+}
+
+.manu > ul {
+    display: flex;
+    list-style-type: disc;
+    margin: 0.3em 0;
+
+}
+
+.manu > ul > li {
+    list-style: none;
+    display: list-item;
+    text-align: start;
+}
+
+.manu > ul > li > a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manu > ul > li > a:hover {
+    background-color:rgb(212, 208, 208);
+    color: black;
+    transform: scale(1.1);
+}
+
+
+
+/*Main Styles*/
+.main {
+    display: flex;
+}
+
+.left_panel {
+    display: inline-block;
+    max-width: 380px;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.post {
+    background-color: #e6e4e4;
+    padding: 10px;
+    margin: 10px;
+}
+.post > h3 {
+    display: block;
+    font-size: 1.17em;
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.post > small {
+    font-size: smaller;
+}
+
+.post > p {
+    display: block;
+    margin: 1em 0;
+}
+
+.post > a {
+    color: black;
+    cursor: pointer;
+}
+
+.post > a:hover {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Right panel styles*/
+
+.info_content {
+    display: inline-block;
+    padding: 20px;
+}
+
+.info_content > h2 {
+    display: block;
+    font-size: 1.5em;
+    margin: 0.8em 0;
+    font-weight: bold;
+}
+
+.info_content > img{
+    padding: 20px 0;
+}
+.info_content > p {
+    display: block;
+}
+
+.photo {
+    transition: 1s;
+}
+
+.photo:hover {
+    transform: scale(1.2);
+}
+
+/*Registration & Map Styles*/
+.registration_map {
+    display: flex;
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
+}
+
+.personal_registrations {
+    flex: 2;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.personal_registrations input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.personal_registrations > textarea {
+    height: 200px;
+}
+
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Map Styles*/
+
+.map {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    padding-left: 10px
+}
+
+.map > iframe {
+    width: 100%;
+}
+
+/*Footer Styles*/
+.footer {
+    text-align: center;
+    background-color: rgb(44, 39, 39);
+    padding: 22px 0;
+}
+
+.footer > small {
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
